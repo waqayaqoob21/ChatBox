@@ -7,13 +7,13 @@ A real-time chat application using React, Node.js, WebSockets, and PostgreSQL fo
 - **Frontend:** React.js
 - **Backend:** Node.js + Express
 - **Real-Time Communication:** WebSockets (Socket.io)
-- **Database:** PostgreSQL
+- **Database:** mySQL
 
 ## ✨ Features
 
 - Real-time two-way messaging
 - WebSocket connection management
-- Message persistence with PostgreSQL
+- Message persistence with mySQL
 - Simple and responsive chat UI
 
 ## 📁 Project Structure
@@ -28,7 +28,7 @@ A real-time chat application using React, Node.js, WebSockets, and PostgreSQL fo
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/yourusername/chatbox-app.git
+git clone https://github.com/waqaryaqoob21/chatbox-app.git
 cd chatbox-app
 ```
 
@@ -47,7 +47,7 @@ npm start
 ```
 
 ### 4. PostgreSQL setup
-- Create a database (e.g., `chatbox`)
+- Create a database (e.g., `chatboxdb`)
 - Run SQL migrations or use provided scripts to create tables.
 
 ## ⚙️ Environment Variables
@@ -57,15 +57,31 @@ Create a `.env` file in `/server` with:
 ```
 PORT=5000
 DB_HOST=localhost
-DB_USER=youruser
-DB_PASSWORD=yourpassword
-DB_NAME=chatbox
+DB_USER=root
+DB_PASSWORD=***
+DB_NAME=chatboxdb
 ```
 
-## 🖼 Screenshots
+## 👨‍💻 **Author**
 
-_Add screenshots of your app UI in a `/screenshots` folder and reference here._
+**Waqar Yaqoob**
 
-## 📄 License
+- GitHub: [@waqayaqoob21](https://github.com/waqayaqoob21)  
+- Email: waqaryaqoob21@gmail.com  
+- LinkedIn: [linkedin.com/in/waqaryaqoob21](https://linkedin.com/in/waqaryaqoob21)
 
-MIT License
+---
+
+## 📄 **License**
+
+This project is licensed under the **MIT License**.  
+See the [`LICENSE`](LICENSE) file for details.
+
+---
+
+## 🌟 **Show Your Support**
+
+If you like this project:
+
+- ⭐ Star this repository on GitHub  
+- 🧑‍💻 Share it with your network  
